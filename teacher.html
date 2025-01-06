@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher</title>
+    <link rel="stylesheet" href="demostyle.css">
+</head>
+<body class="hero" onload="teacherF()">
+    <body class="hero">
+        <div class="container">
+            <h1>TEACHER REMINDER CLOCK</h1>
+            <div id="line"></div>
+            <div class="input-section">
+            
+                
+                
+        
+                <label for="day" id="lable2">Please select day</label>
+                <select name="" id="day">
+                    <option value="---select day please----">---select day please----</option>
+                    <option value="Monday">Monday</option>
+                    <option value="Tuesday">Tuesday</option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="Thursday">Thursday</option>
+                    <option value="Friday">Friday</option>
+                </select>
+            </div>
+            <div class="input-section">
+                <label for="faculty">Enter faculty name:</label>
+                <label for="note" id="note">NOTE : "Currently only Sweaty pal is working"</label>
+                
+                <select name="" id="faculty">
+                    <option>---please select your good name---</option>
+                    <option value="Sweety">MS SWEETY PAL</option>
+                    <option value="Ahmer">DR. MOHD AHMER</option>
+                    <option value="Ritesh">MR. RITESH KUMAR</option>
+                    <option value="Priya">MS PRIYA KUMARI</option>
+                    <option value="Smriti">MS SMRITI SRIVASTAV</option>
+                    <option value="Kavita">DR. KAVITA TIWARI</option>
+                    
+                </select>
+            </div>
+            <button id="submitButton">Submit</button>
+            
+            <div id="output" onload="showTime()">
+                <span id="Hour"></span>
+                <span>:</span>
+                <span id="Min"></span>
+                <span>:</span>
+                <span id="Sec"></span>
+                <span id="session"></span>
+            </div>
+            <div id="clock">
+                  <span></span>
+            </div>
+            <div id="yesbox">
+                <label for="">Want to show whole schedule </label>
+            <button id="Yes">Yes</button></div>
+            <div>
+            <div>
+                <table id="tableContent">
+                    <thead>
+                    <tr>
+                        <th>TIME:</th>
+                        <th>LECTURE</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>09-10</td>
+                        <td id="first"></td>
+                    </tr>
+                    <tr>
+                        <td>10-11</td>
+                        <td id="second"></td>
+                    </tr>
+                    <tr>
+                        <td>11-12</td>
+                        <td id="third">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>12-01</td>
+                        <td id="fourth"></td>
+                    </tr>
+                    <tr>
+                        <td>01-02</td>
+                        <td id="fifth">Lunch Time</td>
+                    </tr>
+                    <tr>
+                        <td>02-03</td>
+                        <td id="six"></td>
+                    </tr>
+                    <tr>
+                        <td>03-04</td>
+                        <td id="seventh"></td>
+                    </tr>
+                    <tr>
+                        <td>04-05</td>
+                        <td id="eigth"></td>
+                    </tr>
+    
+                </tbody>
+                </table>
+                <button id="home" onclick="home()">Previous</button></div>
+            </div>
+        </div>
+<script src="demoscript.js"></script>
+<script src="t.js"></script>
+    
+</body>
+</html>
