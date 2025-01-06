@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(235, 0, 50, 0.4);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+    position: relative;
+    backdrop-filter: blur(40px);
+}
+
+
+.hero{
+    background-image: url("https://i.abcnewsfe.com/a/3ddf8512-8587-4338-b390-4ed69c634b39/Teacher-appreciation-as-jm-240506_1715005960075_hpMain.jpg" );
+    background-size: cover;
+    color: #fff;
+}
+
+
+
+h1 {
+    margin-bottom: 2px;
+    
+}
+
+.input-section {
+    margin-bottom: 15px;
+}
+
+#lable2{
+    margin-top: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#userType {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#faculty {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#section {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#day {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#Yes{
+    margin-top: 1px;
+    margin-bottom: 25px;
+}
+
+#yesbox{
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#output {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+#output span{
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+    color: #f0f0f0;
+}
+
+#clock{
+    color: aliceblue;
+    justify-content: center;
+    font-size: 40px;
+    background: rgba(235, 0, 250, 0.2);
+    padding:7px;
+    border-radius: 7px;
+    
+}
+
+#line{
+    background: rgba(235, 0, 250, 0.2);
+    border-radius: 10px;
+    height: 5px;
+    margin-bottom: 20px;
+}
+
+.twoButton{
+    display: flex;
+    justify-content: space-around;
+}
+
+#tableContent{
+    margin-left: 40px ;
+}
+
+#tableContent thead tr{
+    background-color: #6f064e;
+    
+}
+
+#tableContent th, 
+#tableContent td{
+    padding: 12px 15px;
+} 
+
+#tableContent tbody tr td{
+    border-bottom: 1px solid #6f064e;
+}
+
+#note{
+    color: blue
+}
